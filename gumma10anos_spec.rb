@@ -7,6 +7,7 @@ require 'watir-webdriver'
   	browser = Watir::Browser.new :firefox
 	browser.goto 'http://localhost:8080/automated-tasks-example/'
 	browser.text.include? 'Version: 0.2'
+	browser.close
 #  end
 #end
 
