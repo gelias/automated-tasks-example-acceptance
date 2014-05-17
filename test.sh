@@ -1,1 +1,3 @@
-rspec gumma10anos_spec.rb
+#!/bin/bash -e 
+bundle install
+rake
